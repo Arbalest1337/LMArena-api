@@ -31,5 +31,5 @@ useErrorHandle(app)
 
 const port = process.env.PORT ?? 4000
 app.listen(port, () => {
-  console.log(`app listening on port ${port}, you can test on ${port}/test`)
+  console.log(`app listening on port ${port}`)
 })
