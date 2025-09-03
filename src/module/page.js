@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer'
 import { chatTemplate, imageTemplate } from './template.js'
 
 export class Page {
-  constructor(browser) {
+  constructor() {
     this.browser = null
     this.page = null
   }
