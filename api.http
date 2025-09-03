@@ -1,0 +1,10 @@
+@baseUrl=http://localhost:4001
+
+### Generate Image
+POST {{baseUrl}}/generate-image 
+Content-Type: application/json
+
+{
+    "prompt":"背景加一只赛博机械飞龙",
+    "imageUrl": "https://cdn.watestar.com/2025/06/13/ff53db094a833309f160466c50902d56.png?x-oss-process=image/resize,m_mfit,h_512,w_512,limit_0"
+}
